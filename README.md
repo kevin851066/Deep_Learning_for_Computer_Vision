@@ -5,7 +5,7 @@
 
 ## hw3-kevin851066: 
 - DCGAN, ACGAN python implementation
-- Unsupervised domain adaptation(UDA) implementation
+- Unsupervised domain adaptation(UDA) implementation (Paper: http://sites.skoltech.ru/compvision/projects/grl/files/paper.pdf)
 - Improved UPA model implementation (Paper: https://arxiv.org/pdf/1702.05464.pdf)
 
 ## hw4-kevin851066: 
