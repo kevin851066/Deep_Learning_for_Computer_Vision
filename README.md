@@ -1,7 +1,7 @@
 # Deep_Learning_for_Computer_Vision
 ## hw2-kevin851066: 
 
-- Semantic segmentation
+- Semantic segmentation of images
 
 ## hw3-kevin851066: 
 - DCGAN, ACGAN python implementation
