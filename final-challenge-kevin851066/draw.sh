@@ -1,0 +1,1 @@
+python3 draw_PGSA.py --resume --pretrained ./ckpts/best/checkpoint_best.pth.tar --train_img_dir $1 --mask_dir $2 --train_csv $3  --query_csv " " --gallery " " --csv_path " " --metric 'L2' --save_dir 'vis' --random_seed 420

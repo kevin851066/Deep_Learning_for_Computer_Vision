@@ -1,0 +1,15 @@
+(1) DATA(args, mode="train", type="")
+Required arguments :
+	1. args.img_dir : directory to img folder. ex: final1_release/imgs 
+	2. args.query_csv : path to query_csv.(It's not necessary for training, just add some default string in parser) ex: final1_release/query.csv
+	3. args.gallery_csv : path to gallery_csv.(It's not necessary for training, just add some default string in parser) ex: final1_release/gallery.csv
+	4. mode(str) : train, test or valid
+	5. type(str) : query or gallery. Not used in training. Default is ""
+For validation or testing, just specify the arguments 'mode' and 'type'. DATA will provide the required imgs and ids(not in test mode) corresponding to csv(query.csv of gallery.csv).
+
+(2) Model(class_num=199, feature_size=2048)
+Required arguments :
+	1. class_num : number of classes for classification. Default is 199(max number+1 in train.csv)
+	2. feature_size : size of latent vector after resnet50. Default=2048
+Return values :
+	(latent vector, prediction vector) #(Bx2048, Bx199)
